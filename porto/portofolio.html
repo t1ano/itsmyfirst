@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="/porto/porto.css">
+</head>
+<body>
+    <header>
+        <h1>file sharing secure</h1>
+        <div class="container container-header">
+            <a href="#" class="logo">DevSec<span>Ops</span></a>
+            <a href="/porto/index.html">
+                <img src="assets/logo.png" alt="Logo" class="logo-image" >
+            </a>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#documentation">Documentation</a></li>
+                    <li><a href="#report">Report</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2>About</h2>
+                <p>This is projects use website RBAC as target for secure access control and wazuh as monitoring tool.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="project-layout">
+                <div class="project-card">
+                    <h2>Projects</h2>
+                    <p>This is the projects section. I will showcase my projects here.</p>
+                </div>
+                <div class="slider" name ="slider for project">
+                    <img src="project1.png" alt="Project 1">
+                    <img src="project2.png" alt="Project 2">
+                    <img src="project3.png" alt="Project 3">
+                    <button class="prev" onclick="plusSlides(this, -1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(this, 1)">&#10095;</button>
+                    <div class ="slider-dots"></div>
+                </div>
+            </div>
+            </section>
+            <section id="documentation" class="section">
+                <div class="project-layout reverse">
+                    <div class="slider" name="slider for documentation">
+                        <img src="assets/wazuh.jpg" alt="Documentation Image" class="active">
+                        <img src="assets/documentation-target.png" alt="Documentation Image 2">
+                        <img src="assets/documentation3.png" alt="Documentation Image 3">
+                        <img src="assets/documentation4.png" alt="Documentation Image 4">
+                        <img src="assets/documentation5.png" alt="Documentation Image 5">
+                        <button class="prev" onclick="plusSlides(this, -1)">&#10094;</button>
+                        <button class="next" onclick="plusSlides(this, 1)">&#10095;</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="project-card">
+                        <h2>Documentation</h2>
+                        <p>This is the documentation project.</p>
+                        <h3>Technology stack</h3>
+                        <div class = "stack-list">
+                            <span class="stack-item">PHP-RBAC</span>
+                            <span class="stack-item">MySql-DB</span>
+                            <span class="stack-item">Wazuh</span>
+                            <span class="stack-item">Docker</span>
+                            <span class="stack-item">Portainer.io-management docker</span>
+                            <span class="stack-item">FreeBSD-Firewall</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="report" class="section">
+                <div class="section-content">
+                    <h2>Report</h2>
+                    <p>This is the report section. I will provide a detailed report on the project status and findings.</p>
+                    <p>I hope this improves the use of Suricata for monitoring and security.</p>
+                </div>
+            </section>
+        </div>
+        <script src="/porto/porto.js"></script>
+    </body>
+    </html>

@@ -70,9 +70,8 @@ document.querySelectorAll('.portfolio-item .btn-small').forEach(button => {
         const portfolioItem = this.closest('.portfolio-item');
         const title = portfolioItem.querySelector('h3').textContent;
         const description = portfolioItem.querySelector('p').textContent;
-        
-        // Show modal or alert with details
-        alert(`Proyek: ${title}\n\n${description}\n\n(Fitur detail proyek dapat ditambahkan di sini)`);
+        const link = portfolioItem.querySelector('a').getAttribute('href');
+        window.location.href = link;
     });
 });
 
@@ -98,3 +97,5 @@ document.querySelectorAll('.section, .portfolio-item, .profile-card').forEach(el
 // Initialize with some console log
 console.log('Website Portofolio siap digunakan!');
 console.log('Jangan lupa untuk mengubah konten sesuai dengan informasi pribadi Anda.');
+
+
