@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Dashboard</title>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+    <!-- NAVBAR -->
+    <nav class="bg-blue-600 flex items-center justify-between px-6 py-4">
+        <h1 class="text-white font-bold text-2xl">
+            Belanja
+        </h1>
+
+        <a href="" class="text-white border border-white px-4 py-2 rounded-lg">
+            Logout
+        </a>
+    </nav>
+
+    <div class="grid grid-cols-5 flex-1">
+
+        <aside class="col-span-1 p-4 border-r border-gray-200">
+
+            <a href="Dashboard.html" 
+            class="block w-full px-4 py-2 text-left">
+                Dashboard
+            </a>
+
+            <a href="Products.html" 
+            class=" block bg-blue-500 text-white w-full px-4 py-2 rounded-lg text-left">
+                Products
+            </a>
+
+            <a href="" class="block w-full px-4 py-2 text-left">
+                Users
+            </a>
+
+            <a href="" class="block w-full px-4 py-2 text-left">
+                Settings
+            </a>
+
+        </aside>
+
+
+        <main class="col-span-4 min-w-0 p-8">
+
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold text-gray-700">
+                    Manajemen Produk
+                </h1>
+
+                <a href="add-products.html" class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+                    Add Product
+                </a>
+            </div>
+
+            <div class="mt-8 w-full border border-gray-200 rounded-lg overflow-hidden">
+
+                <table class="w-full table-fixed">
+
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="text-left px-6 py-3">
+                                No
+                            </th>
+
+                            <th class="text-left px-6 py-3">
+                                Name
+                            </th>
+
+                            <th class="text-left px-6 py-3">
+                                Stock
+                            </th>
+
+                            <th class="text-left px-6 py-3">
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr class="border-t border-gray-200">
+                            <td class="px-6 py-4">1</td>
+                            <td class="px-6 py-4">Laptop</td>
+                            <td class="px-6 py-4">10</td>
+                            <td class="px-6 py-4">
+                                <a href="edit-products.html" class="text-blue-500 mr-4">
+                                    Edit
+                                </a>
+
+                                <a href="#" class="text-red-500">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="border-t border-gray-200">
+                            <td class="px-6 py-4">2</td>
+                            <td class="px-6 py-4">Keyboard</td>
+                            <td class="px-6 py-4">25</td>
+                            <td class="px-6 py-4">
+                                <a href="edit-products.html" class="text-blue-500 mr-4">
+                                    Edit
+                                </a>
+
+                                <a href="#" class="text-red-500">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="border-t border-gray-200">
+                            <td class="px-6 py-4">3</td>
+                            <td class="px-6 py-4">Mouse</td>
+                            <td class="px-6 py-4">30</td>
+                            <td class="px-6 py-4">
+                                <a href="edit-produk.html" class="text-blue-500 mr-4">
+                                    Edit
+                                </a>
+
+                                <a href="#" class="text-red-500">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="bg-black text-white text-center py-4">
+        <p>© 2026 belajartailwind.com All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

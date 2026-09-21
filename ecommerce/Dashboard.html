@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Dashboard</title>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+    <!-- NAVBAR -->
+    <nav class="bg-blue-600 flex items-center justify-between px-6 py-4">
+        <h1 class="text-white font-bold text-2xl">
+            Belanja
+        </h1>
+
+        <a href="" class="text-white border border-white px-4 py-2 rounded-lg">
+            Logout
+        </a>
+    </nav>
+
+    <div class="grid grid-cols-5 flex-1">
+
+        <aside class="col-span-1 p-4 border-r border-gray-200">
+
+            <a href="Dashboard.html" class="block bg-blue-500 text-white w-full px-4 py-2 rounded-lg text-left">
+                Dashboard
+            </a>
+
+            <a href="Products.html" class="block w-full px-4 py-2 text-left">
+                Products
+            </a>
+
+            <a href="" class="block w-full px-4 py-2 text-left">
+                Users
+            </a>
+
+            <a href="" class="block w-full px-4 py-2 text-left">
+                Settings
+            </a>
+
+        </aside>
+
+
+        <main class="col-span-4 min-w-0 p-8">
+
+            <h1 class="text-3xl font-bold text-gray-700">
+                Dashboard
+            </h1>
+
+            <div class="grid grid-cols-4 gap-6">
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <p class="text-sm text-gray-500">
+                        Total Penjualan
+                    </p>
+
+                    <h2 class="mt-2 text-2xl font-bold text-gray-800">
+                        Rp 25.000.000
+                    </h2>
+
+                    <p class="mt-2 text-sm text-green-500">
+                        +12.5% dari bulan lalu
+                    </p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <p class="text-sm text-gray-500">
+                        Total Pesanan
+                    </p>
+
+                    <h2 class="mt-2 text-2xl font-bold text-gray-800">
+                        Rp 25.000.000
+                    </h2>
+
+                    <p class="mt-2 text-sm text-green-500">
+                        +12.5% dari bulan lalu
+                    </p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <p class="text-sm text-gray-500">
+                        Total Penjualan
+                    </p>
+
+                    <h2 class="mt-2 text-2xl font-bold text-gray-800">
+                        Rp 25.000.000
+                    </h2>
+
+                    <p class="mt-2 text-sm text-green-500">
+                        +12.5% dari bulan lalu
+                    </p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <p class="text-sm text-gray-500">
+                        Produk Terjual
+                    </p>
+
+                    <h2 class="mt-2 text-2xl font-bold text-gray-800">
+                        3.840
+                    </h2>
+
+                    <p class="mt-2 text-sm text-green-500">
+                        +10.1% dari bulan lalu
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="bg-black text-white text-center py-4">
+        <p>© 2026 belajartailwind.com All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
